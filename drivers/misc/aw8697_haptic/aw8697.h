@@ -447,6 +447,7 @@ struct aw8697 {
     int index;
     int vmax;
     int gain;
+    int level;
     unsigned int gun_type;      //hch 20190917
     unsigned int bullet_nr; //hch 20190917
     unsigned int gun_mode;
@@ -557,7 +558,7 @@ struct aw8697_que_seq {
 #define AW8697_HAPTIC_LOW_LEVEL_REG_VAL     0
 #define AW8697_HAPTIC_MEDIUM_LEVEL_VOL      1600
 #define AW8697_HAPTIC_MEDIUM_LEVEL_REG_VAL  0
-#define AW8697_HAPTIC_HIGH_LEVEL_VOL        2500
+#define AW8697_HAPTIC_HIGH_LEVEL_VOL        3600
 
 //#define AW8697_HAPTIC_RAM_VBAT_COMP_GAIN  0x80
 
